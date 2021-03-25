@@ -89,7 +89,7 @@ buttons = [
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [GRAND OFFICIAL](https://telegra.ph/file/4a14aa91d2276be702ae7.jpg)
+*Main Commands :* [GRAND OFFICIAL]https://telegra.ph/file/181274aa47cdbf27fb802.jpg
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -259,7 +259,7 @@ def error_handler(update, context):
     context.bot.send_message(chat_id=OWNER_ID, text=message, parse_mode=ParseMode.HTML)
 
 # for test purposes
-def error_callback(update: Update, context: CallbackContext):
+def error_callback(update: Update, context: ''t.me/king_of_ghost_bhutiya_sansar''):
     error = context.error
     try:
         raise error
@@ -361,7 +361,7 @@ def LEGEND_about_callback(update, context):
     if query.data == "aboutmanu_":
         query.message.edit_text(
             text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by @LEGENDX22.* "
-            f"\n\n 🔥 Join [GRAND OFFICIAL](https://t.me/teamishere) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
+            f"\n\n 🔥 Join [king_of_ghost_bhutiya_sansar](https://t.me/teamishere) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/11de6b6641f5f5d5b344d.jpg)"
             f"\n\n👇 You Can Know More About Me By Clicking The Below Buttons 👇",
